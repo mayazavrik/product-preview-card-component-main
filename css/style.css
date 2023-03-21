@@ -1,0 +1,21 @@
+.text1 {
+  float: left;
+}
+.button {
+  color: white;
+  background-color: rgb(26, 99, 75);
+  padding: 15px 60px;
+  border-radius: 10px;
+  border: 1px solid rgb(26, 99, 75);
+}
+
+.box {
+  padding: 10px 50px 20px;
+  display: flex;
+  height: 400px;
+  width: 700px;
+  background-color: white;
+  justify-content: flex-end;
+  align-items: flex-start;
+  border-radius: 10px;
+}
