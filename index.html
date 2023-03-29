@@ -3,53 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
     <link rel="icon" href="images/favicon-32x32.png" type="image/x-icon" />
 
     <title>Frontend Mentor | Product preview card component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-        padding: 1em;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+   
     <link href="css/style.css" rel="stylesheet" />
   </head>
-  <body bgcolor="#faebd7">
-    <div class="box">
-      <div class="text1" style="width: 50%">
-        <img
-          src="images/image-product-desktop.jpg"
-          width="300px"
-          height="400px"
-          alt="product"
-        />
-      </div>
-      <div class="text2">
-        <h2 style="color: grey">PERFUME</h2>
-        <h1>Gabrielle Essence Eau De Parfum</h1>
+  <body class="body">
 
-        <p style="color: grey">
+   
+    <div class="box">
+      <div class="left_column" >
+        <img class="image"
+         src="images/image-product-desktop.jpg"
+          width="100%"
+      height="auto"
+      
+          alt="product"/> 
+      </div>
+    
+      <div class="right_column">
+        <h2 style="font-weight:500; color: hsl(228, 12%, 48%)" >PERFUME</h2>
+        <h1 style="color: hsl(212, 21%, 14%); font-family: 'Fraunces', serif;">Gabrielle Essence Eau De Parfum</h1>
+
+        <p style="color: hsl(228, 12%, 48%)">
           A floral, solar and voluptuous interpretation composed by Olivier
           Polge, Perfumer-Creator for the House of CHANEL.
         </p>
 
-        <span style="font-size: 25px; color: rgb(26, 99, 75)"
+        <div class="price"><span style="padding-right: 25px;font-family: 'Fraunces', serif;font-size: 25px; color: hsl(158, 36%, 37%);"
           ><b>$149.99</b></span
         >
         <s>$169.99</s>
-        <svg width="15" height="16" xmlns="http://www.w3.org/2000/svg"></svg>
+        <svg width="15" height="16" xmlns="http://www.w3.org/2000/svg"></svg> </div>
 
         <p>
           <button class="button">
-            <img src="images/icon-cart.svg" />&nbsp &nbsp Add to Cart
+            <img src="images/icon-cart.svg" /> &nbsp; &nbsp; Add to Cart
           </button>
         </p>
       </div>
