@@ -27,6 +27,7 @@
   border-radius: 10px;
   border: 1px solid hsl(158, 36%, 37%);
   cursor: pointer;
+  width: 100%;
 }
 
 .box {
@@ -51,4 +52,23 @@ body {
 html,
 body {
   height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .box{
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+  .image {
+    max-height: 350px;
+    width: 100%;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 10px;
+  }
+  .right_column{
+    padding: 1%;
+    
+  }
+  
+  
 }
